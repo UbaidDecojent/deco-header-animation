@@ -1,0 +1,69 @@
+@import "./normalize.scss";
+@import "./CSS-grid.scss";
+
+
+
+.header{
+    .title{
+        font-family: "GT Walsheim","Trebuchet MS",sans-serif;
+        font-size: 6rem;
+        // text-align: center;
+        color: #101010;
+        margin: 130px 0px 5px 0px;
+        @media screen and (max-width: 991px) {
+            font-size: 2rem;
+        }
+        
+    }
+    .sub-title{
+        font-family: "GT Walsheim","Trebuchet MS",sans-serif;
+        font-size: 1.875rem;
+
+    }
+    .colored-text{
+        color: #ff300a;
+    }
+    @media screen and (max-width: 991px) {
+        margin: 0 auto;
+    }
+    .h-video{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .video{
+            margin-top: 30px;
+            width: 100%;
+        }
+    }
+    
+}
+
+
+.after-title{
+    font-family: "GT Walsheim","Trebuchet MS",sans-serif;
+        font-size: 6rem;
+        // text-align: center;
+        color: #101010;
+        margin-top: 40%;
+        @media screen and (max-width: 991px) {
+            font-size: 2rem;
+        }
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // width: 100%;
+    // overflow-x: hidden;
+    // overflow-y: visible;
+    @media screen and (max-width: 991px) {
+       flex-direction: column; 
+    }
+   
+}
+
+body{
+    overflow-x: hidden;
+}

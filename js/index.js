@@ -87,6 +87,11 @@
 // }
 
 
+var windowWith = window.innerWidth;
+var videowidth = $(".video").width();
+
+var scal = windowWith / videowidth;
+
 
 const tl = gsap.timeline({
     defaults: {scale:1, ease: 'slow'},
@@ -102,9 +107,9 @@ const tl = gsap.timeline({
 
   
   .to(".video", {
-    scaleY: 1.8,
-    scaleX: 1.68,
-    // scale: 1.8,
+    // scaleY: 1.8,
+    // scaleX: 1.68,
+    scale: scal,
     ease: "slow",
   })
 

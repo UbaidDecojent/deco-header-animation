@@ -2711,7 +2711,7 @@ html {
 .header .h-video .video {
   margin-top: 30px;
   width: 100%;
-  transition: all 1s;
+  transition: all 0.9s;
 }
 
 .after-title {

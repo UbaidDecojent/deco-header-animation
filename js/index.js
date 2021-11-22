@@ -87,6 +87,7 @@
 // }
 
 
+
 const tl = gsap.timeline({
     defaults: {scale:1, ease: 'slow'},
     scrollTrigger: {
@@ -101,9 +102,10 @@ const tl = gsap.timeline({
 
   
   .to(".video", {
-    scale: 1.8,
+    scaleY: 1.8,
+    scaleX: 1.7,
     // scale: 1.8,
-    ease: "slow"
+    ease: "slow",
   })
 
 

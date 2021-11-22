@@ -103,7 +103,7 @@ const tl = gsap.timeline({
   
   .to(".video", {
     scaleY: 1.8,
-    scaleX: 1.7,
+    scaleX: 1.68,
     // scale: 1.8,
     ease: "slow",
   })
